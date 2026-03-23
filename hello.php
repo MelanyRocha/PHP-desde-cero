@@ -27,4 +27,5 @@ echo $my_bool . "\n";
 $my_bool = false;
 echo $my_bool
 
+
 ?>
