@@ -25,7 +25,10 @@ echo $my_int + $my_double . "\n";
 $my_bool = true;
 echo $my_bool . "\n";
 $my_bool = false;
-echo $my_bool
+echo $my_bool;
 
-
+$my_bool = false;
+echo $my_bool . "\n";
+$my_bool = true;
+echo $my_bool;
 ?>
