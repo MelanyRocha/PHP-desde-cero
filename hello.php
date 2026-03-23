@@ -7,6 +7,8 @@ $my_String = 6; // tipado dinamico
 echo $my_String . "\n";
 echo gettype($my_String) . "\n";
 $my_String = "esto es cadena";
+$my_String = 22;
+echo $my_String . "\n";
 
 $my_int = 7;
 $my_int = $my_int + 4;
@@ -24,4 +26,5 @@ $my_bool = true;
 echo $my_bool . "\n";
 $my_bool = false;
 echo $my_bool
+
 ?>
