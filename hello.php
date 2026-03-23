@@ -21,15 +21,9 @@ $my_double = 6.5;
 echo gettype($my_double) . "\n";
 echo $my_int + $my_double . "\n";
 //echo $my_int + $my_double + $my_String . "\n"; -- esto no se permite
-// prueba de contribucion
 
 $my_bool = true;
 echo $my_bool . "\n";
 $my_bool = false;
-echo $my_bool;
-
-$my_bool = false;
-echo $my_bool . "\n";
-$my_bool = true;
 echo $my_bool;
 ?>
