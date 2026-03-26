@@ -36,10 +36,11 @@ echo $MY_CONSTANT . "\n";
 
 //Listas
 
+
 $my_array = [$my_String, $my_int, $my_double];
 echo gettype($my_array) . "\n";
 echo $my_array[0] . "\n";
 array_push($my_array, $my_bool);
 print_r($my_array);
-// prueba de contribucion
+
 ?>
