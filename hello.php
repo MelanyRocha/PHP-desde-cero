@@ -26,4 +26,8 @@ $my_bool = true;
 echo $my_bool . "\n";
 $my_bool = false;
 echo $my_bool;
+
+echo "El valor de mi integer es $my_int y el de mi boolen es $my_bool.\n";
+
+
 ?>
