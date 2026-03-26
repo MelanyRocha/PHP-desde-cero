@@ -33,4 +33,12 @@ echo "El valor de mi integer es $my_int y el de mi boolen es $my_bool.\n";
 
 const MY_CONSTANT = "Valor de la constane";
 echo $MY_CONSTANT . "\n";
+
+//Listas
+
+$my_array = [$my_String, $my_int, $my_double];
+echo gettype($my_array) . "\n";
+echo $my_array[0] . "\n";
+array_push($my_array, $my_bool);
+print_r($my_array);
 ?>
