@@ -49,4 +49,10 @@ $my_dict = array("string" => $my_String, "int",$my_int, "bool" => $my_bool);
 echo gettype($my_dict) . "\n";
 print_r($my_dict);
 echo $my_dict["int"] . "\n";
+
+//Flujos
+
+for ($index = 0; $index <= 10; $index++){
+    echo $index . "\n";
+}
 ?>
