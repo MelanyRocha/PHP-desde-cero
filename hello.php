@@ -42,4 +42,10 @@ echo $my_array[0] . "\n";
 array_push($my_array, $my_bool);
 print_r($my_array);
 // echo $my_array[4] . "\n"; ERROR
+
+//Diccionario
+
+$my_dict = array("string" => $my_String, "int",$my_int, "bool" => $my_bool);
+echo gettype($my_dict) . "\n";
+
 ?>
